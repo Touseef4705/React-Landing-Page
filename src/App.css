@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar i{
+    display: none;
+}
+
+@media (max-width:778px) {
+    .nav-links{
+        display: none;
+    }
+    .navbar{
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navbar button{
+        display: none;
+    }
+    .navbar i{
+        display: block;
+        font-size: 2rem;
+        cursor: pointer;
+    }
+}
