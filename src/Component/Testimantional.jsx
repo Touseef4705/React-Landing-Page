@@ -6,7 +6,7 @@ function Testimantion({testimonial}){
           Testimantional
         </h1>
         <div className="flex flex-wrap justify-center -m-4">
-          {console.log(testimonial)}
+          {/* {console.log(testimonial)} */}
           {testimonial.map((data)=>(
           <div key={data.id} className="lg:w-1/3 lg:mb-0 mb-6 p-4">
             <div className="h-full text-center">
